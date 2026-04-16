@@ -7,12 +7,186 @@
       "root": "./src/partials",
       "locals": {
         "top": [],
-        "body": [],
+        "body": [
+          {
+            "type": "text",
+            "value": "In her student advising meetings in recent years, Wendy Schor-Haim, director of Barnard’s First-Year Writing program, has noticed a shift in her advisees."
+          },
+          {
+            "type": "text",
+            "value": "Schor-Haim, who has taught in the program since 2009, said she saw a “notable decrease” over the past few years in first-year students voicing interest in humanities majors. Instead, more were arriving on campus with clear plans to pursue STEM fields."
+          },
+          {
+            "type": "text",
+            "value": "Schor-Haim’s experience reflects a broader trend faculty say is emerging at Barnard: declining interest in traditional humanities majors alongside sustained growth in hard and social sciences. As Barnard <a href=\"https://www.columbiaspectator.com/news/2023/09/14/barnard-secures-columbia-classroom-space-ahead-of-2024-closure-of-altschul-hall/\">continues</a> to invest in scientific infrastructure and resources, professors across disciplines are wondering what this shift means for the college’s identity and the future of humanities in a liberal arts framework."
+          },
+          {
+            "type": "text",
+            "value": "In her advising conversations, Schor-Haim said interests are skewing “overwhelmingly” toward natural sciences. Social sciences, particularly economics, follow. By contrast, she said she could “count on one hand” how many of her students enter Barnard expressing interest in fields such as literature, history, philosophy, or other humanities."
+          },
+          {
+            "type": "text",
+            "value": "“I’ve had to learn a lot about the sciences and the social sciences, especially like I said econ, as an advisor, because it seems like everybody is majoring in that,” Schor-Haim said. Particularly in the past year, she has noticed that students no longer wanted to discuss departments she is familiar with, such as English."
+          },
+          {
+            "type": "text",
+            "value": "Beyond her role as an advisor, Schor-Haim has noticed a similar decline in enrollment in Barnard’s English department. The trend is not necessarily abrupt, she noted, but has become more evident over time."
+          },
+          {
+            "type": "text",
+            "value": "“Classes that we [once] had long waitlists for might not be filling now,” Schor-Haim said."
+          },
+          {
+            "type": "text",
+            "value": "This trend has made her “a little bit worried about enrollment for probably the first time” since arriving at Barnard."
+          },
+          {
+            "type": "text",
+            "value": "On the other hand, Nara Milanich, chair of Barnard’s history department, feels the impact of a decline, but is unsure as to what extent. When looking at the numbers of majors for a small liberal arts college like Barnard, it is hard to discern what that means in a broader context, she explained. Despite this, “It seems pretty clear that … there is indeed an overall decline,” Milanich added."
+          },
+          {
+            "type": "text",
+            "value": "Milanich’s suspected decline reflects a national trend across other liberal arts colleges. Federal data shows that less than 10 percent of students who received a bachelor’s degree in 2020 majored in humanities—a 25 percent drop over eight years."
+          },
+          {
+            "type": "text",
+            "value": "Alice Reagan, chair and professor of professional practice in the theater department, said her department has observed a similar pattern in recent years. She attributes this trend to a combination of economic factors and the college’s shift to emphasize STEM fields when recruiting prospective students. Reagan said students remain interested in her departments but that institutional priorities and broader social pressures discourage students from pursuing them as official majors."
+          },
+          {
+            "type": "text",
+            "value": "Milanich claims part of the shift <a href=\"https://apnews.com/article/mississippi-college-majors-funding-cuts-aad5a0d5c7ab013d6c5489fd41e4dc54\">reflects</a> the longstanding narrative that humanities degrees are unmarketable and less practical than those in STEM. From her perspective, the broader cultural framing of college as a means of career preparation disadvantages disciplines that are not directly tied to specific professions."
+          },
+          {
+            "type": "text",
+            "value": "Women’s, gender, and sexuality studies department chair Janet Jakobsen agrees that economic considerations greatly shape how students structure their academic plans. “A lot of our students do double or combined majors so as to have a field that they hope will help them economically and at the same time do the thing that they are most interested in,” she said."
+          },
+          {
+            "type": "text",
+            "value": "Milanich added that this decline can also be attributed to how “humanities are seen as somehow politically suspect in the way that they are taught or engaged with in U.S. universities.” She said that the humanities are frequently placed at the forefront of national ideological debates surrounding higher education."
+          },
+          {
+            "type": "text",
+            "value": "“Should we be teaching the history of slavery? Should we be teaching the concept of gender, or should we be teaching the concept of race?” Milanich asked."
+          },
+          {
+            "type": "text",
+            "value": "That scrutiny, she suggested, has influenced how students perceive the humanities, reinforcing the narrative that they are controversial or less secure professional pathways."
+          },
+          {
+            "type": "graphic",
+            "value": {
+              "asset": "BARNARDMAJORS_correct.html"
+            }
+          },
+          {
+            "type": "text",
+            "value": "However, faculty members emphasized that national trends alone do not explain Barnard’s internal trends, turning to Barnard’s institutional priorities as a major factor shaping enrollment patterns."
+          },
+          {
+            "type": "text",
+            "value": "“Some of the messaging over the past few years has emphasized the sciences,” Schor-Haim said. She pointed to the 2021-22 academic year, dubbed the “Barnard Year of Science,” as a “turning point” for the college."
+          },
+          {
+            "type": "text",
+            "value": "Former Barnard President Sian Beilock, a cognitive scientist, launched the program, among other efforts to develop math, science, and technology programs, as part of a new vision for Barnard as a leading institution for both science and the arts."
+          },
+          {
+            "type": "text",
+            "value": "Beilock’s tenure included sweeping advancements to the structure of Barnard’s STEM departments. The college created new undergraduate majors, including cognitive science and computer science and a new neuroscience and behavior department. It also expanded the 4+1 program to disciplines such as engineering and public health."
+          },
+          {
+            "type": "text",
+            "value": "That commitment became most visible with the ongoing construction of the <a href=\"https://barnard.edu/RDScience-construction\">Roy and Diana Vagelos Science Center</a>, a state-of-the-art research and teaching facility that will replace Altschul Hall. The new facility will expand space available for the biology, chemistry, environmental science, neuroscience and behavior, and physics and astronomy departments."
+          },
+          {
+            "type": "text",
+            "value": "Given these institutional investments and priorities, Milanich questioned whether the rise in STEM enrollment is entirely organic."
+          },
+          {
+            "type": "text",
+            "value": "“If we do indeed see a decline in the numbers of humanities majors, is that because students are choosing to do something different, or is it because Barnard has chosen different students to admit to the college?” she asked."
+          },
+          {
+            "type": "text",
+            "value": "For STEM faculty, this trajectory, however, is not a cause of concern, but a defining feature of Barnard’s evolution."
+          },
+          {
+            "type": "text",
+            "value": "BJ Casey, chair of the neuroscience and behavior department, said the college’s visible investment in STEM growth through expanding scientific programs was what drew her to leave her role at Yale University to join Barnard in 2022."
+          },
+          {
+            "type": "text",
+            "value": "Casey described the new science center as “phenomenal in terms of lab space, research facilities, and opportunities for the students,” emphasizing that the consolidation of departments under one roof creates new possibilities for collaboration and accommodations for both students and departments in light of hiking enrollment."
+          },
+          {
+            "type": "text",
+            "value": "“Enrollment and advisees are through the roof in STEM,” Casey said. She explained that her Introduction to Neuroscience course this past fall had nearly 200 students, roughly double the enrollment from when she first arrived in 2022."
+          },
+          {
+            "type": "text",
+            "value": "Chemistry lecturer Meena Rao said interest in the medical sciences is “definitely increasing,” with more students pursuing her labs and pre-med classes over the last three years."
+          },
+          {
+            "type": "text",
+            "value": "The expansion of STEM infrastructure and enrollment is “already shaping Barnard’s identity,” Casey said. The college’s investments have attracted faculty from leading research institutions who are drawn to the opportunity to train the “next generation of women scientists” within a liberal arts framework. For Casey, Barnard’s distinctiveness lies in pairing rigorous scientific research and education with the arts and humanities."
+          },
+          {
+            "type": "text",
+            "value": "“Many of our neuroscience majors are double majoring in human rights and dance and English,” Casey said."
+          },
+          {
+            "type": "text",
+            "value": "As STEM continues to play a more central institutional role, humanities faculty members say departments have had to recalibrate to remain both visible amid the college’s evolving priorities and to respond to shifting student interests."
+          },
+          {
+            "type": "text",
+            "value": "A consortium between the departments of Africana studies, American studies, and women’s, gender, and sexuality studies have developed new minors and concentrations: race and ethnicity, Asian American diaspora and Asian American studies, and environmental humanities. Jakobsen said that the departments “have developed them often in response to student interest.”"
+          },
+          {
+            "type": "text",
+            "value": "These interdisciplinary offerings, Jakobsen explained, reflect the departments’ effort to adapt to growing student engagement with environmental challenges, technological developments, and the rise of artificial intelligence. The consortium seeks to engage students with the global contemporary issues they are passionate about, while also ensuring that the humanities remain visible and relevant within Barnard’s ever-evolving institutional landscape."
+          },
+          {
+            "type": "text",
+            "value": "Still, faculty questioned how the growth of STEM reshapes the balance of disciplines at a liberal arts institution. For some, the concern is less about competition between fields and more about preserving the foundational nature of the humanities."
+          },
+          {
+            "type": "text",
+            "value": "“When you’re explaining the value of something, you’re using philosophy,” Schor-Haim said. “You’re using critical thinking and you’re using philosophy and you’re using a lot of the skills that we teach in the humanities in the first place.”"
+          },
+          {
+            "type": "text",
+            "value": "Milanich argued that the modern idea of “practicality” often misunderstands what a humanities education provides. Critical reading, philosophy, and interpretive analysis, Schor-Haim suggested, are necessary skills across professions."
+          },
+          {
+            "type": "text",
+            "value": "“I like to teach neuroscience in a liberal arts college, highlighting that the brain doesn’t just grow or function in isolation, but is in a broader context of the arts, humanities, social contexts, and cultures,” Casey said."
+          },
+          {
+            "type": "text",
+            "value": "<i>Staff Writer Mutashma Shaaf can be contacted at </i><a href=\"mailto:mutashma.shaaf@columbiaspectator.com\"><i>mutashma.shaaf@columbiaspectator.com</i></a><i>. Follow Spectator on X </i><a href=\"https://twitter.com/columbiaspec?lang=en\"><i>@ColumbiaSpec</i></a><i>.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<i>Data Visualization Reporter Emilia Lebeau can be contacted at </i><a href=\"mailto:emilia.lebeau@columbiaspectator.com\"><i>emilia.lebeau@columbiaspectator.com</i></a><i>.</i><i> Follow Spectator on X </i><a href=\"https://twitter.com/columbiaspec?lang=en\"><i>@ColumbiaSpec</i></a><i>.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<b><i>Want to keep up with breaking news? Subscribe to our </i></b><a href=\"https://columbiaspectator.us4.list-manage.com/subscribe?u=a3d2eeb1ae5560ca04f82f042&id=e51c51d62d\"><b><i>email newsletter </i></b></a><b><i>and like Spectator on </i></b><a href=\"https://www.facebook.com/columbiaspectator\"><b><i>Facebook</i></b></a><b><i>. </i></b>"
+          }
+        ],
+        "headline": "As Barnard advances STEM initiatives, humanities professors express enrollment concerns",
+        "dek": "Faculty members told Spectator that declining student interest has been driven not only by broader cultural and economic factors but also deliberate administrative strategy.",
+        "date": "April 15, 2026",
+        "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/mutashma-shaaf/\">Mutashma Shaaf</a>",
+        "byline2": "Graphic by <a href=\"https://www.columbiaspectator.com/contributors/emilia-lebeau/\">Emilea Lebeau</a>",
+        "cover_asset": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6NR6K7TIZFDALEQHLCG2G2T6IE.jpg",
+        "cover_caption": "Ming Yuan / Staff Photographer",
         "USE_NEWS_NAV": true,
         "USE_EYE_NAV": false,
-        "USE_COVER_HED": false,
+        "USE_COVER_HED": true,
         "IS_EMBED": false,
-        "DOC_URL": null
+        "DOC_URL": "https://docs.google.com/document/d/1pVwic3tYfs1ZjRQaJ3crPxmdliu8L9vpqwsbJTOAa8M/edit?usp=sharing"
       }
     }
   }

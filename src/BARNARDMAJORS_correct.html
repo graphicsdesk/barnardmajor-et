@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Scrollama: Sticky Overlay Example</title>
+	<meta name="description" content="Scrollama: Sticky Overlay Example" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="../style.css" />
+	<style>
+		#scrolly {
+			position: relative;
+			background-color: #f3f3f3;
+			padding: 1rem;
+		}
+
+		article {
+			position: relative;
+			padding: 0;
+			max-width: 20rem;
+			margin: 0 auto;
+		}
+
+		figure {
+  		position: sticky;
+		border: none;
+  		top: 0;
+  		height: 100vh;
+  		display: flex;
+  		align-items: center;
+  		justify-content: center;
+		}
+
+		figure img {
+    	display: block;
+    	border: none;
+		}
+
+		.base-graph,
+		.overlay {
+  		z-index: 0;
+		position: absolute;
+  		width: 100%;
+  		max-width: 800px;
+		max-height: 100vh;
+		object-fit: contain;
+		}
+
+		.overlay {
+  		z-index: 1;
+		opacity: 0;
+  		transition: opacity 0.5s ease;
+  		pointer-events: none;
+		}
+
+		.overlay.active {
+  		opacity: 1;
+		}
+
+		.step {
+			margin: 0 auto 2rem auto;
+			height: 75vh;
+			background: none;
+		}
+
+		.step:last-child {
+			margin-bottom: 0;
+		}
+
+		.step p {
+			display: none;
+		}
+
+	</style>
+</head>
+
+<body>
+
+		<section id="scrolly">
+			<figure>
+    <img src="barnardbg.png" data-base="barnardbg.png" class="base-graph">
+
+    <img src="2016.png" data-base="2016.png" class="overlay" data-step="0">
+    <img src="2017.png" data-base="2017.png" class="overlay" data-step="1">
+    <img src="2018.png" data-base="2018.png" class="overlay" data-step="2">
+    <img src="2019.png" data-base="2019.png" class="overlay" data-step="3">
+    <img src="2020.png" data-base="2020.png" class="overlay" data-step="4">
+    <img src="2021.png" data-base="2021.png" class="overlay" data-step="5">
+    <img src="2022.png" data-base="2022.png" class="overlay" data-step="6">
+    <img src="2023.png" data-base="2023.png" class="overlay" data-step="7">
+    <img src="2024.png" data-base="2024.png" class="overlay" data-step="8">
+    <img src="2025.png" data-base="2025.png" class="overlay" data-step="9">
+</figure>
+
+			<article>
+  				<div class="step"></div>
+    			<div class="step"></div>
+    			<div class="step"></div>
+    			<div class="step"></div>
+    			<div class="step"></div>
+   				<div class="step"></div>
+    			<div class="step"></div>
+    			<div class="step"></div>
+    			<div class="step"></div>
+    			<div class="step"></div>
+  			</article>
+
+		</section>
+
+	</main>
+
+<script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
+<script src="../scrollama.min.js"></script>
+<script>
+    var main = d3.select("main");
+    var scrolly = main.select("#scrolly");
+    var figure = scrolly.select("figure");
+    var article = scrolly.select("article");
+    var step = article.selectAll(".step");
+
+    var scroller = scrollama();
+
+    // *** ADD THIS: defines breakpoints and filename suffixes ***
+    function getSizeSuffix() {
+        var width = window.innerWidth;
+        if (width <= 480) return "_mobile";       // mobile: 480px and below
+        if (width <= 1024) return "_tablet";      // tablet: 481px – 1024px
+        return "";                                 // desktop: above 1024px
+    }
+
+    // *** ADD THIS: swaps all overlay src attributes based on screen size ***
+    function updateImageSources() {
+        var suffix = getSizeSuffix();
+        d3.selectAll(".overlay").each(function () {
+            var base = this.dataset.base;          // reads the base filename stored in data-base
+            this.src = base.replace(".png", suffix + ".png");
+        });
+
+        // also swap the base graph background
+        var bgImg = document.querySelector(".base-graph");
+        var bgBase = bgImg.dataset.base;
+        bgImg.src = bgBase.replace(".png", suffix + ".png");
+    }
+
+    function handleResize() {
+        var stepH = Math.floor(window.innerHeight * 0.75);
+        step.style("height", stepH + "px");
+
+        updateImageSources();   // *** ADD THIS: re-check screen size on resize ***
+        scroller.resize();
+    }
+
+    function handleStepEnter(response) {
+        step.classed("is-active", (d, i) => i === response.index);
+        d3.selectAll(".overlay")
+            .classed("active", function () {
+                return +this.dataset.step === response.index;
+            });
+    }
+
+    function init() {
+        handleResize();
+
+        scroller
+            .setup({
+                step: "#scrolly article .step",
+                offset: 0.33,
+                debug: false
+            })
+            .onStepEnter(handleStepEnter);
+
+        window.addEventListener("resize", handleResize);
+    }
+
+    init();
+</script>
+</body>
+
+</html>

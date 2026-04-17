@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "parcel src/index.html --global script",
-    "build": "parcel build src/index.html --global script --public-url . --no-content-hash",
+    "copy-images": "xcopy /Y src\\*.png dist\\",
+    "start": "xcopy /Y src\\*.png dist\\ && parcel src/index.html --global script",
+    "build": "cp src/*.png dist/ && parcel build src/index.html --global script --public-url https://spectator-static-assets.s3.amazonaws.com/barnardmajor-et --no-content-hash",
     "postinstall": "patch-package"
   },
   "devDependencies": {
@@ -29,6 +30,9 @@
     "singleQuote": true,
     "trailingComma": "all",
     "arrowParens": "avoid"
+  },
+  "parcel": {
+    "contentHash": false
   },
   "spectate": {
     "USE_NEWS_NAV": true,

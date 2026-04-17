@@ -5,7 +5,7 @@
   "scripts": {
     "copy-images": "xcopy /Y src\\*.png dist\\",
     "start": "xcopy /Y src\\*.png dist\\ && parcel src/index.html --global script",
-    "build": "cp src/*.png dist/ && parcel build src/index.html --global script --public-url https://spectator-static-assets.s3.amazonaws.com/barnardmajor-et --no-content-hash",
+    "build": "xcopy /Y src\\*.png dist\\ && parcel build src/index.html --global script --public-url https://spectator-static-assets.s3.amazonaws.com/barnardmajor-et",
     "postinstall": "patch-package"
   },
   "devDependencies": {
